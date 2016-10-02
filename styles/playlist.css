@@ -1,0 +1,30 @@
+#playlist table.fixed{
+  position: fixed;
+  background: white;
+  top: 0;
+  width: calc(100% - 265px);
+}
+
+#playlist table.list{
+  margin-top: 35px;
+}
+
+#playlist table.fixed tr th:nth-child(1),
+#playlist table.list tr td:nth-child(1){
+  width: 30%;
+}
+
+#playlist table.fixed tr th:nth-child(2),
+#playlist table.list tr td:nth-child(2){
+  width: 30%;
+}
+
+#playlist table.fixed tr th:nth-child(3),
+#playlist table.list tr td:nth-child(3){
+  width: 30%;
+}
+
+#playlist table.fixed tr th:nth-child(4),
+#playlist table.list tr td:nth-child(4){
+  width: 10%;
+}
