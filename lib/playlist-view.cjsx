@@ -121,7 +121,6 @@ class PlaylistView
       <PlaylistComponent playlist=@playlist cantik=@cantik />,
       @element
     )
-    document.getElementsByTagName('body')[0].appendChild(@element);
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->

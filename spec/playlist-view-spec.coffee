@@ -37,6 +37,7 @@ describe "Playlist Component", ->
 
   it "Render", ->
     @playlist.element = document.createElement('div')
+    document.getElementsByTagName('body')[0].appendChild(@playlist.element)
     new PlaylistView(@playlist, {
       'utils': {
         formatTime: (t) ->
